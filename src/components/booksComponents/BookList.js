@@ -18,8 +18,7 @@ const BookList = () => {
   const bookElements = booksLibrary.map((book) => (
     <BookItem
       key={book.id}
-      title={book.title}
-      author={book.author}
+      book={book}
     />
   ));
 
