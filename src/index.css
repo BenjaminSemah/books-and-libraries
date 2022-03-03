@@ -17,7 +17,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 .inside--header {
   display: flex;
   align-items: center;
@@ -85,7 +84,7 @@ h1 {
   margin: 0;
   font-weight: 300;
   font-size: 0.8em;
-  color: #0290ff
+  color: #0290ff;
 }
 
 .book--details {
@@ -162,7 +161,7 @@ hr {
 }
 
 .addnew--heading {
-  color: #888888;
+  color: #888;
 }
 
 .book--form {
@@ -172,13 +171,13 @@ hr {
 }
 
 .input--title {
-  border: 0.5px solid #888888;
+  border: 0.5px solid #888;
   width: 50%;
   padding: 8px 5px;
 }
 
 .category--input {
-  border: 0.5px solid #888888;
+  border: 0.5px solid #888;
   width: 25%;
   padding: 8px 5px;
 }
