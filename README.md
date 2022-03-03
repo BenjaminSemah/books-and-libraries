@@ -7,8 +7,8 @@
 > your progress on the books you're reading. It provides a centralized location for you to get a 
 > snapshot of your reading habit.
 
-<!-- ## App Screenshot
-![](https://github.com/BenjaminSemah/math-magicians/blob/dev/appScreenshot.png) -->
+## App Screenshot
+![](./src/images/appScreenshot.PNG)
 
 ## Built With
 
