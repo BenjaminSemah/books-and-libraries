@@ -151,4 +151,41 @@ h1 {
   padding: 7px 25px;
 }
 
+hr {
+  width: 80%;
+  margin-bottom: 30px;
+}
 
+.form--container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.addnew--heading {
+  color: #888888;
+}
+
+.book--form {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.input--title {
+  border: 0.5px solid #888888;
+  width: 50%;
+  padding: 8px 5px;
+}
+
+.category--input {
+  border: 0.5px solid #888888;
+  width: 25%;
+  padding: 8px 5px;
+}
+
+.add--btn {
+  width: 15%;
+  border: none;
+  background-color: #0290ff;
+  color: #fefefe;
+}
