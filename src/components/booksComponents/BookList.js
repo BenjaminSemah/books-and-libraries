@@ -4,6 +4,7 @@ import BookItem from './BookItem';
 const BookList = () => (
   <div className="booklist--container">
     <BookItem />
+    <hr />
   </div>
 );
 

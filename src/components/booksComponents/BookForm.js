@@ -47,6 +47,7 @@ const BookForm = () => {
             required
           />
           <select
+            className="category--input"
             name="category"
             onChange={changeHandler}
             value={bookInfo.category}
@@ -57,7 +58,7 @@ const BookForm = () => {
             <option value="Motivation">Motivation</option>
             <option value="Biographies">Biographies</option>
           </select>
-          <input className="add--btn" type="submit" value="Add Book" />
+          <input className="add--btn" type="submit" value="ADD BOOK" />
         </form>
       </div>
     </>
