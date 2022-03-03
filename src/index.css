@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(245, 243, 243);
+  font-family: 'Roboto Slab', serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inside--header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+h1 {
+  margin: 0;
+  color: #0290ff;
+}
+
+.nav--links {
+  font-size: 0.9em;
+  margin-top: 7px;
+  display: flex;
+  gap: 20px;
+}
+
+.nav--item {
+  text-decoration: none;
+}
+
+.header img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.book--card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 10%;
+  padding: 20px 100px;
+}
+
+.other--information {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.status--icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.book--information {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.book--categroy {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.book--title {
+  margin: 5px 0 0 0;
+}
+
+.benji--test {
+  margin: 0;
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #0290ff;
+}
+
+.book--details {
+  margin-bottom: 15px;
+}
+
+.comments--btn,
+.remove--btn,
+.edit--btn {
+  background: none;
+  border: none;
+  margin: 0;
+  color: #0290ff;
+  padding: 0;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.book--buttons button:hover {
+  cursor: pointer;
+}
+
+.right-border {
+  border-right: 1px solid grey;
+  padding-right: 10px;
+}
+
+.status--information {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 10px;
+  border-right: 1px solid gray;
+  padding-right: 50px;
+}
+
+.percent--number {
+  margin: 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.text--completed {
+  margin: 0;
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+.current--chapter {
+  font-size: 0.8em;
+  margin: 0;
+  font-weight: 300;
+}
+
+.chapter--number {
+  margin-top: 5px;
+}
+
+.update--btn {
+  border: none;
+  background-color: #0290ff;
+  color: #fefefe;
+  padding: 7px 25px;
+}
+
+hr {
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.form--container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.addnew--heading {
+  color: #888;
+}
+
+.book--form {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.input--title {
+  border: 0.5px solid #888;
+  width: 50%;
+  padding: 8px 5px;
+}
+
+.category--input {
+  border: 0.5px solid #888;
+  width: 25%;
+  padding: 8px 5px;
+}
+
+.add--btn {
+  width: 15%;
+  border: none;
+  background-color: #0290ff;
+  color: #fefefe;
+}
