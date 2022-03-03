@@ -7,7 +7,6 @@ const BookForm = () => {
   const dispatch = useDispatch();
   const [bookInfo, setBookInfo] = useState({
     title: '',
-    author: '',
     category: '',
   });
 
@@ -21,16 +20,14 @@ const BookForm = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     const newBook = {
-      id: uuidv4(),
+      item_id: uuidv4(),
       title: bookInfo.title,
-      author: bookInfo.author,
       category: bookInfo.category,
     };
 
     dispatch(addBook(newBook));
     setBookInfo({
       title: '',
-      author: '',
       category: '',
     });
   };
@@ -49,15 +46,6 @@ const BookForm = () => {
             onChange={changeHandler}
             required
           />
-          <input
-            className="input--author"
-            type="text"
-            name="author"
-            value={bookInfo.author}
-            placeholder="Author"
-            onChange={changeHandler}
-            required
-          />
           <select
             name="category"
             onChange={changeHandler}
@@ -67,7 +55,6 @@ const BookForm = () => {
             <option value="Business">Business</option>
             <option name="Programming">Programming</option>
             <option value="Motivation">Motivation</option>
-            <option value="Romance">Romance</option>
             <option value="Biographies">Biographies</option>
           </select>
           <input className="add--btn" type="submit" value="Add Book" />
